@@ -7,8 +7,13 @@ hr {
   padding: 1em;
 }
 
-.lista-rodapé {
+.lista__rodapé {
   display: none;
+}
+
+.rodapé__titulo {
+  font-size: 16px;
+  line-height: 1.5em;
 }
 
 @media screen and (min-width: 1024px) {
@@ -17,11 +22,7 @@ hr {
     justify-content: space-around;
   }
 
-  .rodapé__titulo {
-    font-size: 24px;
-  }
-
-  .lista-rodapé {
+  .lista__rodapé {
     display: block;
   }
 
@@ -42,5 +43,16 @@ hr {
     font-size: 14px;
     color: var(--cinza-claro);
     text-transform: uppercase;
+  }
+}
+
+@media screen  and (min-width: 1728px) {
+  .lista__rodapé {
+    border-left: 1px solid var(--cinza-claro);
+    padding-left: 1em;
+  }
+
+  .rodapé {
+    padding: 3em 0;
   }
 }

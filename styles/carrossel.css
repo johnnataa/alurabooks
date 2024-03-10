@@ -73,12 +73,12 @@
   text-decoration: none;
 }
 
-.descrição__imagem-estrelas{
-margin-bottom: 0.5em;
+.descrição__imagem-estrelas {
+  margin-bottom: 0.5em;
 }
 
 .juliana {
-  text-align:justify;
+  text-align: justify;
 }
 
 @media screen and (min-width: 1024px) {
@@ -94,7 +94,8 @@ margin-bottom: 0.5em;
     width: 60%;
   }
 
-  .swiper-button-prev, .swiper-button-next {
+  .swiper-button-prev,
+  .swiper-button-next {
     display: block;
     top: 60%;
   }
@@ -102,5 +103,42 @@ margin-bottom: 0.5em;
   .card {
     width: 40%;
     margin: 2em auto;
+  }
+
+  .carrossel__titulo:hover {
+    font-weight: lighter;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .carrossel__container {
+    display: flex;
+    margin: 0 20vw 3em 20vw;
+    align-items: center;
+  }
+
+  .swiper-pagination {
+    margin: 1em 0;
+  }
+
+  .swiper {
+    width: 50%;
+  }
+
+  .descrição__titulo {
+    font-size: 32px;
+  }
+
+  .descrição__texto {
+    font-size: 16px;
+  }
+
+  .card {
+    width: 60%;
+    margin-left: 3em;
+  }
+
+  .descrição {
+    margin-right: 2em;
   }
 }
