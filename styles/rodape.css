@@ -16,6 +16,11 @@ hr {
   line-height: 1.5em;
 }
 
+.rodapé__titulo-menor {
+  font-size: 14px;
+  color: var(--cinza-claro);
+}
+
 @media screen and (min-width: 1024px) {
   .rodapé {
     display: flex;
